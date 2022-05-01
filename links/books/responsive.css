@@ -1,0 +1,18 @@
+@media (max-width: 640px) {
+    .container {
+        width: 350px;
+        margin: 0 auto;
+    }
+
+    .navBar a {
+        font-size: 16px;
+    }
+
+    .books img {
+        width: 240px;
+    }
+
+    .books img:hover {
+        width: 240px;
+    }
+}

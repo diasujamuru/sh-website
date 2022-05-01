@@ -1,0 +1,47 @@
+@media (max-width: 640px) {
+    .container {
+        width: 350px;
+        margin: 0 auto;
+    }
+
+    .navBar a{
+        font-size: 16px;
+    }
+
+    .top-wrapper img {
+        width: 300px;
+        padding: 15px;
+        margin-right: 30px;
+    }
+
+    .top-wrapper p {
+        font-size: 18px;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .top-wrapper p span {
+        font-size: 40px;
+    }
+
+    .down-wrapper {
+        margin-top: 20px;
+    }
+
+    .down-wrapper hr {
+        width: 240px;
+    }
+
+    .footer-content {
+        width: 280px;
+    }
+
+    .footer-content h2 {
+        font-size: 25px;
+    }
+
+    .social-media {
+        display: block;
+        padding: 10px 0;
+    }
+}
