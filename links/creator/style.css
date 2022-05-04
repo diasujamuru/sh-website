@@ -54,7 +54,12 @@ body {
 .navBar a:hover {
     color: white;
 }
-.container h1 {
+
+.creator {
+    animation: fade 0.6s;
+}
+
+.creator h1 {
     text-align: center;
 }
 .creator img {
@@ -63,6 +68,7 @@ body {
     margin-top: 40px;
     float: left;
     box-shadow: 4px 4px 10px black;
+    animation: 2s;
 }
 
 .creator-desc {
@@ -70,6 +76,7 @@ body {
     width: 500px;
     margin-left: 100px;
     margin-top: 60px;
+    animation: fade 2s;
 }
 
 .creator-desc h2 {
@@ -80,4 +87,14 @@ body {
 .creator-desc span {
     margin-left: 20px;
     font-size: 20px;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
