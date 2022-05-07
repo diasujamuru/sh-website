@@ -20,7 +20,8 @@ body {
     overflow: hidden;
     position: sticky;
     top: 0;
-    background-color: rgb(104, 104, 104);
+    background-color: rgb(73, 73, 73);
+    border-radius: 20px;
 }
 
 .navBar span {
@@ -34,6 +35,8 @@ body {
     font-size: 23px;
     margin-right: 15px;
     position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .navBar a::after {
@@ -61,6 +64,7 @@ body {
 
 .creator h1 {
     text-align: center;
+    padding-top: 20px;
 }
 .creator img {
     width: 300px;
