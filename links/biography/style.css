@@ -67,10 +67,12 @@ body {
 .intro-sh {
     width: 900px;
     margin: 0 auto;
+    animation: fade 0.6s;
 }
 .sh-image {
     float: left;
     display: inline-block;
+    animation: fade 2s;
 }
 
 .sh-image img {
@@ -90,6 +92,7 @@ body {
     display: inline-block;
     width: 550px;
     margin-left: 70px;
+    animation: fade 1.5s;
 }
 
 .sh-desc h2 {
@@ -108,6 +111,7 @@ body {
 
 .next-content {
     margin-top: 200px;
+    animation: fade 0.6s;
 }
 
 .first-app-sh {
@@ -118,6 +122,7 @@ body {
 .sh-app-desc {
     display: inline-block;
     width: 480px;
+    animation: fade 1.5s;
 }
 
 .sh-app-desc h2 {
@@ -139,6 +144,7 @@ body {
     display: inline-block;
     width: 250px;
     margin-right: 50px;
+    animation: fade 2s;
 }
 
 .sh-app-img p {
@@ -146,4 +152,14 @@ body {
     font-size: 13px;
     width: 200px;
     margin: 0 auto;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
