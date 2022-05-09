@@ -7,11 +7,18 @@
 body {
     background-color: rgb(104, 104, 104);
     font-family: 'Montserrat', sans-serif;
+    color: white;
 }
 
 .container {
     width: 1107px;
     margin: 0 auto;
+}
+
+.container h1 {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .navBar {
@@ -55,4 +62,88 @@ body {
 
 .navBar a:hover {
     color: white;
+}
+
+.intro-sh {
+    width: 900px;
+    margin: 0 auto;
+}
+.sh-image {
+    float: left;
+    display: inline-block;
+}
+
+.sh-image img {
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px black;
+}
+
+.sh-image p {
+    text-align: center;
+    font-size: 13px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.sh-desc {
+    display: inline-block;
+    width: 550px;
+    margin-left: 70px;
+}
+
+.sh-desc h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.sh-desc p {
+    text-align: justify;
+}
+
+.sh-desc span {
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.next-content {
+    margin-top: 200px;
+}
+
+.first-app-sh {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.sh-app-desc {
+    display: inline-block;
+    width: 480px;
+}
+
+.sh-app-desc h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.sh-app-desc p {
+    text-align: justify;
+}
+
+.sh-app-desc span {
+    font-size: 20px;
+    margin-left: 30px; 
+}
+
+.sh-app-img {
+    float: right;
+    display: inline-block;
+    width: 250px;
+    margin-right: 50px;
+}
+
+.sh-app-img p {
+    text-align: center;
+    font-size: 13px;
+    width: 200px;
+    margin: 0 auto;
 }
